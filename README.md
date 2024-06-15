@@ -9,7 +9,7 @@
 - 🌱 I’m currently learning firebase and NextJs.
 - 💞️ In my free time, I work on some personal projects.
 - 👯 I am looking to collaborate on projects that involve web development.
-- 📫 How to reach me: <a href="https://www.linkedin.com/in/razi-benvidi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" height="20"></a>   <a href="razi.esmaeili98@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="20"></img></a>
+- 📫 How to reach me: <a href="https://www.linkedin.com/in/razi-benvidi-53b38422a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" height="20"></a>   <a href="razi.esmaeili98@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="20"></img></a>
 ***
 🛠  **Languages and Tools :**
 </br>
