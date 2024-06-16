@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razieh Benvidi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Razieh Esmaeilibenvidi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#experience">SKILLS</a></li>
+          <li><a href="#projects">PORTFOLIO</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Razieh Esmaeilibenvidi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">SKILLS</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">PORTFOLIO</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Programmer.jpeg" alt="Profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Razieh Esmaeilibenvidi</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV-Razieh EsmaeiliBenvidi.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Get In Touch
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/razi-benvidi-53b38422a/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/RaziBN'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/girl programmer.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <div class="education-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <ul>
+                  <li class="new">
+                    <b>AEC Internet Programming</b> (2023-Present)<br />Tav
+                    College
+                  </li>
+                  <li class="old">
+                    <b>B.Sc. in Software Engineering</b> (2016-2020)<br />
+                    Islamic Azad University Central Tehran Branch
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm a dedicated Web Developer with a passion for creating dynamic
+              and responsive web applications. With a strong foundation in HTML,
+              CSS and JavaScript, alongside modern frameworks like React and
+              Next.js, I'm able to create seamless user experiences and bring
+              innovative design concepts to life. I love staying updated with
+              the latest industry trends and enjoy working in collaborative
+              environments.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">What I Have</p>
+      <h1 class="title">Learned</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python <span class="progress-percentage">90%</span></h3>
+                  <p>Experienced</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 90%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    JavaScript <span class="progress-percentage">90%</span>
+                  </h3>
+                  <p>Experienced</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 90%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React <span class="progress-percentage">70%</span></h3>
+                  <p>Intermediate</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 70%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML <span class="progress-percentage">100%</span></h3>
+                  <p>Experienced</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 100%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS <span class="progress-percentage">100%</span></h3>
+                  <p>Experienced</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 100%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    Bootstrap <span class="progress-percentage">90%</span>
+                  </h3>
+                  <p>Experienced</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 90%"></span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    PostgreSQL <span class="progress-percentage">70%</span>
+                  </h3>
+                  <p>Intermediate</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 70%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQLite <span class="progress-percentage">60%</span></h3>
+                  <p>Intermediate</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 60%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS <span class="progress-percentage">60%</span></h3>
+                  <p>Intermediate</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 60%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    Express JS <span class="progress-percentage">60%</span>
+                  </h3>
+                  <p>Intermediate</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 60%"></span>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git <span class="progress-percentage">70%</span></h3>
+                  <p>Intermediate</p>
+                  <div class="progress-bar">
+                    <span class="progress" style="width: 70%"></span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Portfolio</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/movie-frontend.png"
+                alt="Watchers Frontend Image"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Watchers Frontend
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RaziBN/Movie-Frontend'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/watchers-backend.png"
+                alt="Watchers Backend Image"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Watchers Backend</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RaziBN/Movie-Backend'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/contact-us.png"
+            alt="Phone icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a>+1(514)806-2776</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:gurleenkaurkhurpa19@gmail.com"
+              >razi.esmaeili98@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/razi-benvidi-53b38422a/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Razieh Esmaeilibenvidi. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
