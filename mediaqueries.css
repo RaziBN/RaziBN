@@ -14,6 +14,18 @@
     height: 18px;
     background-size: 100% 18px;
   }
+  .show-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  img {
+    height: auto;
+  }
+  #about {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -28,7 +40,8 @@
     margin-top: 2rem;
   }
   #profile,
-  .section-container {
+  .section-container,
+  #about {
     display: block;
   }
   .arrow {
@@ -48,6 +61,7 @@
   }
   .about-containers {
     margin-top: 0;
+    text-align: center;
   }
   .progress-bar {
     height: 16px;
@@ -55,6 +69,12 @@
   }
   .progress {
     margin-top: 2.5px;
+  }
+  .show-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
   }
 }
 
@@ -108,7 +128,7 @@
     font-size: 1.25rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .text-container {
     text-align: justify;
@@ -116,5 +136,27 @@
   .progress-bar {
     height: 14px;
     background-size: 100% 14px;
+  }
+  .education-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education-container ul {
+    margin-left: 0;
+  }
+  .education-container ul li {
+    margin-left: 20px;
+    justify-content: flex-start;
+  }
+  .education-container h3,
+  .education-container img {
+    margin-top: 0;
+  }
+  .show-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 10px;
   }
 }

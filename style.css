@@ -339,7 +339,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -359,21 +359,29 @@ section {
 }
 
 .education-container ul li {
-  text-align: justify;
-  margin-left: 100px;
+  margin-left: 20px;
+  justify-content: flex-start;
+}
+.education-container ul {
+  margin-top: 10px;
+  margin-left: 50px;
 }
 .education-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   text-align: left;
+  flex-wrap: wrap;
 }
 .education-container h3 {
-  margin-top: 2rem;
-  margin-left: 20px;
+  margin-left: 10px;
 }
-.education-container img {
-  margin-top: 2rem;
+
+.show-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 /* EXPERIENCE SECTION */
 #experience::after {
