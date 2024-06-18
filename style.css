@@ -20,6 +20,12 @@ p {
   color: rgb(186, 186, 186);
 }
 
+.line {
+  height: 2px;
+  background-color: white;
+  border: none;
+  margin: 20px 0;
+}
 /* TRANSITION */
 
 a,
@@ -291,18 +297,6 @@ section {
   gap: 1rem;
 }
 
-#about::after {
-  position: absolute;
-  max-width: 1270px;
-  height: 1px;
-  background: white;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 /* ABOUT SECTION */
 
 #about {
@@ -384,17 +378,6 @@ section {
   flex-wrap: wrap;
 }
 /* EXPERIENCE SECTION */
-#experience::after {
-  position: absolute;
-  max-width: 1270px;
-  height: 1px;
-  background: white;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 #experience {
   position: relative;
   color: black;
@@ -456,17 +439,6 @@ article .icon {
 #experience .title {
   color: white;
 }
-#projects::after {
-  position: absolute;
-  max-width: 1270px;
-  height: 1px;
-  background: white;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
 /* PROJECTS SECTION */
 
 #projects {
@@ -524,17 +496,6 @@ article .icon {
   font-weight: normal;
   margin-left: 0.5rem;
   font-size: medium;
-}
-#contact::before {
-  content: "";
-  display: block;
-  height: 1px;
-  background-color: white;
-  margin: 0 auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 /* CONTACT */
 
